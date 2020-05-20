@@ -1,0 +1,302 @@
+html {
+  height: 100%;
+  overflow:auto;
+  background-color:white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family:sans-serif;
+  color: #fff;
+}
+header {
+  box-sizing: border-box;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 20%;
+  transform-style: inherit;
+  width: 100vw;
+}
+.znak{
+    width: 4vw;
+    height: 8vh;
+    top: 3vh;
+    right: 3vw;
+    position: absolute;
+    
+}
+header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+  transform-origin: center;
+  min-height: 100vh;
+  background-image:url(img/patrick-fore-0gkw_9fy0eQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s;
+  /* Параллакс */
+  transform: translateZ(-1px) scale(2);
+}
+header h1 {
+  margin-top:-16vh;
+  font-size: 50px;
+    margin-left: -35vw;
+}
+#hello{
+    text-align: center;
+    margin-left: -35vw;
+    font-size: 2vw;
+}
+.books{
+     background-color:darkcyan;
+    width: 100%;
+    height: 105vh;
+    position: absolute;
+    margin-top: 1vh; 
+    perspective: 30px;
+}
+.reklama{
+    width: 20vw;
+    height: 100vh;
+    margin-top:-8.5vh;
+    position: absolute;
+    background-color:cadetblue;
+    margin-left: 1vw;
+    border-radius: 5px;
+    top: 10vh;
+    display: none;
+}
+.short{
+    height:38.2vh;
+    width: 76vw;
+    background-color:deepskyblue;
+    margin-top: 53vh;
+    position: absolute;
+    margin-left: 30vw;
+    border-radius: 5px;
+    right:1vw;
+    
+}
+.blogg{
+font-size: 1.5vw;
+}
+
+.storytext{
+ font-size: 1.2vw;   
+    
+}
+
+.storyhref{
+font-size: 1.7vw; 
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.booktext1 {
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-size: 2vw; 
+}
+
+.autor{
+    background-image:url(img/tom-pavlakos-hdOo_khWT9w-unsplash.jpg);
+    position:absolute;
+     background-repeat: no-repeat;
+  background-size: cover;   
+    width: 100%;
+    height:100vh;
+    margin-top: 105vh;
+    perspective: 10px;
+     transition: 1s;
+}
+
+   .ads{
+        margin-top: 80vh;
+        margin-left: -79vw;
+    }
+    .lits{
+color: white;
+        font-family: sans-serif;
+        font-size: 1.2vw;
+    }
+#autorimg{
+    width: 16vw;
+    margin-top:-3.5vw;
+    border-radius: 10px;
+    margin-left: -48vw;
+    border: 5px solid white;
+    position: absolute;
+}
+#autortext{
+    font-family:inherit;
+    margin-left: 2vw;
+    font-size:2vw;
+    
+}
+.autortext2{
+  font-size:1.5vw;
+    margin-left:25vw;
+    position: absolute;
+    margin-top: 10vh;
+}
+#autor_name{
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 3.3vw;
+    font-size:1vw;
+}
+
+#name{
+    font-family: sans-serif;
+}
+.books1{
+    background-color: aqua;
+      width: 17vw;
+    height: 24vw;
+    position: absolute;
+    border-radius: 10px;
+     box-shadow:  0 0 5px;
+    transition:1s;
+}
+.books2{
+    background-color: aqua;
+          width: 17vw;
+    height: 24vw;
+    position: absolute;
+    border-radius: 10px;
+     box-shadow:  0 0 5px;
+    transition:1s;
+}
+.books3{
+    background-color:  aqua;
+         width: 17vw;
+    height: 24vw;
+    position: absolute;
+    border-radius: 10px;
+     box-shadow:  0 0 5px;
+    transition:1s;
+}
+.books4{
+    background-color:  aqua;
+           width: 17vw;
+    height: 24vw;
+    position: absolute;
+    border-radius: 10px;
+     box-shadow:  0 0 5px;
+    transition:1s;
+}
+.books5{
+    background-color:  aqua;
+      width: 17vw;
+    height: 24vw;
+    position: absolute;
+    border-radius: 10px;
+     box-shadow:  0 0 5px;
+    transition:1s;
+}
+.butnext{
+    display: block;
+background-color:aqua;
+    position:absolute;
+    width: 4vw;
+    height: 4vw;
+    margin-top:12vw;
+    margin-left: 94vw;
+    border-radius:4vh;
+    z-index: 10;
+}
+.big_left{
+   margin-left:50.5vw;
+    transform: rotateY(-1.5deg)scale(0.8);
+    transform-origin:left;
+    display: block;
+    transition:1s;
+    z-index: -1;
+    margin-top: 2vh;
+    width: 12vw;
+}
+.big_right{
+    margin-left:79vw;
+    transform: rotateY(1.5deg)scale(0.9);
+    transform-origin:left;
+    display: block;
+    transition:1s;
+    z-index: -1;
+}
+.active{ 
+    transform: rotateX(100%);
+    margin-left: 61.8vw;
+    display: block;
+       display: block;
+    transition:1s
+}
+.lit_rig{
+   margin-left:87.5vw;
+     transform: rotateY(1.8deg)scale(0.6);
+    transform-origin:left;
+    z-index: -2;
+    margin-top: 2vh;
+}
+.lit_lef{
+       margin-left:43.1vw;
+     transform: rotateY(-1.8deg)scale(0.6);
+    transform-origin:center;
+    z-index: -2;
+    margin-top: 2vh;
+    width: 9vw;
+    border-radius: 3px; 
+}
+
+
+.next1,
+.next2{
+position: absolute;
+width: 0.3vw;
+    height: 2vw;
+    background-color: white;
+    border-radius: 10px;
+}
+.next2{
+margin-top:1.8vw;
+  transform:rotate(45deg);
+    transform-origin:right;
+}
+.next1{
+margin-top:0.4vw;
+     transform:rotate(-45deg);
+    transform-origin:right;
+} 
+.text{
+display: inline-block;
+    position: absolute;
+    margin-left: -26vw;
+    margin-top: 1vh;
+    font-size: 1.3vw;
+}
+.text1,
+.text2,
+.text3,
+.text4,
+.text5 {
+  opacity: 0.3;
+    
+}
+.text_ac {
+    opacity:1;
+}
+.go{
+    text-decoration: none;
+     color: white;
+}
+
