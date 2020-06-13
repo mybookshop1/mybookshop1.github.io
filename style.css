@@ -19,6 +19,12 @@ background-color: #07273f;
         position: relative;
     box-shadow: -1px 5px 10px 0px;
 }
+#xush{
+color: white;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    position: absolute;
+}
 .sitata{
     width:99.9%;
     height: 110vh;
@@ -40,16 +46,7 @@ font-size: 4.8vw;
     margin-top: 80vh;
     margin-left: 35vw;
 }
-.ball1, .ball2, .ball3, .ball4, .ball5 {
-     display:none;
-    z-index: 15;
-      height: 110px;
-    width: 110px;
-    background-color: darkblue;
-    position:absolute;
-    
-}
-.sitata:hover .ball1{
+.ball1{
     display: block;
     height: 110px;
     width: 110px;
@@ -60,9 +57,9 @@ font-size: 4.8vw;
     margin-top: 90vh;
     animation: dws-bounce 1s ease-in, dws-moveleft 1.1s ease-in;
     margin-left: -0vw;
-    animation-delay: 0s;
+    animation-delay: 5s;
 }
-.sitata:hover .ball2{
+.ball2{
     display: block;
     height: 50px;
     width: 50px;
@@ -73,9 +70,9 @@ font-size: 4.8vw;
     margin-top:83.2vh;
     animation: dws-bounce 1.2s ease-in, dws-moveleft 1.1s ease-in;
     margin-left:-0.1vw;
-    animation-delay: 0s;
+    animation-delay: 5s;
 }
-.sitata:hover .ball3{
+.ball3{
     display: block;
     height: 70px;
     width: 70px;
@@ -86,11 +83,11 @@ font-size: 4.8vw;
     margin-top: 96.2vh;
     animation: dws-bounce 1.2s ease-in, dws-moveleft 1.1s ease-in;
     margin-left: 32vw;
-    animation-delay: 0s;
+    animation-delay: 5s;
 }
 
 
-.sitata:hover .ball4{
+.ball4{
     display: block;
     height: 40px;
     width: 40px;
@@ -101,10 +98,10 @@ font-size: 4.8vw;
     margin-top: 91.9vh;
     animation: dws-bounce 1.3s ease-in, dws-moveleft 1.1s ease-in;
     margin-left: 27.5vw;
-    animation-delay: 0s;
+    animation-delay: 5s;
 }
 
-.sitata:hover .ball5{
+.ball5{
     display: block;
     height: 30px;
     width: 30px;
@@ -115,7 +112,7 @@ font-size: 4.8vw;
     margin-top: 101.9vh;
     animation: dws-bounce 1.4s ease-in, dws-moveleft 1.1s ease-in;
     margin-left: 55.5vw;
-    animation-delay: 0s;
+    animation-delay: 5s;
 }
 
 @keyframes dws-bounce{
