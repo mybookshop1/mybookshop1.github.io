@@ -7,23 +7,29 @@ body{
     position: relative;
     background-color: #f2f3f4;
     overflow-x:hidden;
+align-items: center;
+    justify-content: center;
     z-index: -20;
 }
+
 .header{
     border-radius: 5px 20px 10px 20px;
-height: 60vh;
+height: 30vh;
 width: 95vw;
 background-color: #07273f;
     top: 0;
     left: 0;
         position: relative;
     box-shadow: -1px 5px 10px 0px;
+    align-items: center;
+    justify-content: center;
 }
 #xush{
-color: white;
-    margin-top: 20vh;
+position: absolute;
+    color: white;
     margin-left: 30vw;
-    position: absolute;
+    margin-top: 10vh;
+
 }
 .sitata{
     width:99.9%;
