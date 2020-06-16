@@ -24,6 +24,14 @@ background-color: #07273f;
     align-items: center;
     justify-content: center;
 }
+.znak{
+    position: absolute;
+   height: 35px;
+    width: 35px;
+    right: 1vw;
+    
+}
+
 #xush{
 position: absolute;
     color: white;
@@ -289,7 +297,7 @@ margin-top:-0.4vw;
 
 .short{
       width:99.9%;
-    height: 180vh;
+    height: 270vh;
    border-radius: 10px 10px 5px 5px;
     background-color:#f2f3f4;
     position: relative;
