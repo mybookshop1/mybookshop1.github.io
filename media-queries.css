@@ -1,0 +1,26 @@
+@media screen and (min-width:375px){
+    
+  #autortext{
+margin-top: 25vh;
+    color: dodgerblue;
+} 
+#autorimg{
+position: absolute;
+    height: 20vh;
+    width: 30vw;
+    margin-top: -100vh;
+    margin-left: 20vw;
+    border-radius: 5px;
+    box-shadow: -0px 5px 10px 0px;
+}
+.autortext2{
+    margin-top: 55vh;
+    font-size: 6.5vw;
+}
+#name{
+position: absolute;
+    margin-top: -78vh;
+    margin-left: 14.5vw;
+}  
+    
+}
