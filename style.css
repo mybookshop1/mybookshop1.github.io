@@ -66,6 +66,7 @@ font-size: 4.8vw;
 }
 .ball1, .ball2, .ball3, .ball4, .ball5{
     z-index: 10;
+    opacity: 0.6
     
 }
 .ball1{
