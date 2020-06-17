@@ -6,9 +6,9 @@ margin-top: 25vh;
 } 
 #autorimg{
 position: absolute;
-    height: 20vh;
-    width: 30vw;
-    margin-top: -100vh;
+    height: 28vh;
+    width: 38vw;
+    margin-top: -105vh;
     margin-left: 20vw;
     border-radius: 5px;
     box-shadow: -0px 5px 10px 0px;
@@ -19,7 +19,7 @@ position: absolute;
 }
 #name{
 position: absolute;
-    margin-top: -78vh;
+    margin-top: -75vh;
     margin-left: 14.5vw;
 }  
     
