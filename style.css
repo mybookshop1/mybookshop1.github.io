@@ -41,17 +41,17 @@ position: absolute;
 }
 .sitata{
     width:99.9%;
-    min-height: 110vh;
-    max-height:800vh;
+    height: 115vh;
    border-radius: 10px 10px 5px 5px;
     background-color:#f2f3f4;
     position: relative;
    top: -10vh;
     z-index: -5;
+    overflow-y: hidden;
 }
 #hello{
 font-size: 6vw;
-    position: absolute;
+    position: relative;
    margin-top: 25vh;
 margin-left: 4vw;
     z-index: 15;
@@ -59,8 +59,8 @@ margin-left: 4vw;
 }
 #hello2{
 font-size: 4.8vw;
-    position:absolute;
-   margin-top: 85vh;
+    position:relative;
+   margin-top: 5vh;
  margin-left: 35vw;
     z-index: 15;
 }
