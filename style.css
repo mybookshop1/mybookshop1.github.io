@@ -42,7 +42,7 @@ position: absolute;
 .sitata{
     width:99.9%;
     min-height: 110vh;
-    max-height: 800vh;
+    max-height:800vh;
    border-radius: 10px 10px 5px 5px;
     background-color:#f2f3f4;
     position: relative;
@@ -52,15 +52,21 @@ position: absolute;
 #hello{
 font-size: 6vw;
     position: absolute;
-   top: 20vh;
-left: 4vw;
+   margin-top: 25vh;
+margin-left: 4vw;
+    z-index: 15;
     
 }
 #hello2{
 font-size: 4.8vw;
-    position: absolute;
-   top: 80vh;
- left: 35vw;
+    position:absolute;
+   margin-top: 85vh;
+ margin-left: 35vw;
+    z-index: 15;
+}
+.ball1, .ball2, .ball3, .ball4, .ball5{
+    z-index: 10;
+    
 }
 .ball1{
     display: block;
