@@ -16,14 +16,128 @@ align-items: center;
     border-radius: 5px 20px 10px 20px;
 height: 30vh;
 width: 95vw;
-background-color: #07273f;
+background-color:#f2f3f4;
     top: 0;
     left: 0;
         position: relative;
-    box-shadow: -1px 5px 10px 0px;
     align-items: center;
     justify-content: center;
 }
+body{
+overflow-x: hidden;
+}
+.box {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 38% 62% 63% 37% / 41% 44% 46% 59%;
+  box-shadow: 0 0 4px rgba(255, 255, 255, .1), inset 0 0 8px rgba(255, 255, 255, .4);
+  transition: background-color .2s ease;
+}
+
+.box span:nth-child(1) {
+  animation: rotateToLeft 6s linear infinite;
+}
+
+.box span:nth-child(2) {
+  animation: rotateToLeft 8s linear infinite;
+}
+
+.box span:nth-child(3) {
+  animation: rotateToLeft 10s linear infinite;
+}
+
+.box span:nth-child(4) {
+  animation: rotateToRight 12s linear infinite;
+}
+.box span:nth-child(5) {
+  animation: rotateToLeft 12s linear infinite;
+}
+
+.box span:nth-child(6) {
+  animation: rotateToRight 6s linear infinite;
+}
+
+.box .content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: rgba(255, 255, 255, .7);
+  padding: 40px;
+  font: 16px/24px Arial, sans-serif;
+}
+
+.box .content .title{
+  font: bold 20px/28px Arial, sans-serif;
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, .8);
+}
+
+.box .content .description{
+  margin-bottom: 20px;
+color: white;
+    font-size: 6vw;
+    margin-left: 20%;
+margin-top: 30%;
+}
+
+.box .content .button{
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 74% 24% 44% 58% / 57% 54% 56% 51%;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, .8);
+  color: #000;
+  align-self: flex-start;
+  margin: 0 auto;
+  transition: background-color .2s linear, color .2s linear;
+}
+
+span{
+  background-color: rgba(35, 82, 167, 0.5);
+  // box-shadow: none;
+}
+
+ .button{
+  background-color: transparent;
+  color: #fff;
+}
+
+@keyframes rotateToRight {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateToLeft {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
 .znak{
     position: absolute;
    height: 35px;
