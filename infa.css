@@ -1,0 +1,88 @@
+body{
+align-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+     background-color: #ad93e6;
+}
+.webp{
+margin-top: 20px;
+
+}
+.webp{
+    width: 280px;
+    height: 150px;
+}
+.rasrab{
+    margin: 15px;
+    position: absolute;
+    left: 0;
+    color: aliceblue;
+}
+.insta{
+height: 40px;   
+    position: absolute;
+    top: 230px;
+    left:15px;
+}
+.insnamemy{
+    position: absolute;
+    left: 65px;
+    top: 215px;
+    
+}
+.telegram{
+height: 40px;   
+    position: absolute;
+    top: 280px;
+    left:15px;
+}
+.tgnamemy{
+     position: absolute;
+    left: 65px;
+    top: 266px;
+    
+}
+.dizayn{
+ margin: 15px;
+    position: absolute;
+    left: 0;
+    color: aliceblue;
+    top: 330px;
+}
+.insta1{
+height: 40px;   
+    position: absolute;
+    top: 380px;
+    left:15px;
+}
+.insnameshe{
+    position: absolute;
+    left: 65px;
+    top: 370px;
+    
+}
+
+.autor{
+ margin: 15px;
+    position: absolute;
+    left: 0;
+    color: aliceblue;
+    top: 420px;
+}
+.telegram1{
+height: 40px;   
+    position: absolute;
+    top: 465px;
+    left:15px;
+}
+.tgnamehe{
+     position: absolute;
+    left: 65px;
+    top: 455px;
+    
+}
+
+
+
+
