@@ -46,19 +46,17 @@ position: relative;
     height: 45vh;
     width: 45vw;
     margin-top: 10vh;
-    margin-left: 20vw;
     border-radius: 5px;
     box-shadow: -0px 5px 10px 0px;
 }
   #name{
 position:relative;
     margin-top: 2vh;
-    margin-left: 14.5vw;
       font-size: 6.1vw;
 }  
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1025px){
  html{
      overflow-x:hidden;
     width: 98vw;
@@ -483,6 +481,7 @@ margin-top:38px;
 margin-top: 50px;
     color: dodgerblue;
     font-size: 5vw;
+    text-align: center;
 }
 .storytext{
     margin-top: 5%;
@@ -544,29 +543,48 @@ font-size: 2.5vw;
 margin-top: 25vh;
     color: dodgerblue;
     font-size: 4vw;
+    text-align: center;
 } 
 #autorimg{
 position: relative;
     height: 400px;
     width: 300px;
     margin-top: 10vh;
-    margin-left: 20vw;
+    margin-left: 0vw;
     border-radius: 5px;
     box-shadow: -0px 5px 10px 0px;
 }
 .autortext2{
-    margin-top: 10vh;
+    margin-top: 20vh;
     font-size: 3vw;
     margin: 2%;
 }
 #name{
 position:relative;
     margin-top:1%;
-    margin-left: 18vw;
+    margin-left:0vw;
     font-size:3.5vw; 
 }
 .ads{
 margin-top: 20vh;
     color: darkcyan;
 }   
+}
+@media screen and (max-width:320px){
+  .box {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}  
+    .box .content .description{
+  margin-bottom: 20px;
+color: white;
+    font-size: 6vw;
+    margin-left: 20%;
+margin-top: 60%;
+}
+    
 }

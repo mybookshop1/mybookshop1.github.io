@@ -137,12 +137,38 @@ span{
     transform: rotate(0);
   }
 }
-
-.znak{
+#znak{
     position: absolute;
-   height: 35px;
-    width: 35px;
+     text-decoration: none;
+    margin:5px;
     right: 1vw;
+    top: 1vw;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+      text-align: center;
+}
+#znakdiv{
+background-color: dodgerblue;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    text-align: center;
+}
+#znakh{
+    text-decoration: none;
+font-size:25px;
+    z-index: 20;
+    color:white;
+    position:inherit;
+      text-align: center;
+    right: 30%;
+    top: 15%;
+    
     
 }
 
@@ -428,14 +454,19 @@ margin-top:-0.4vw;
     position: relative;
     margin-top: -10vh;
     z-index: -11;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
 }
 .blogg{
 margin-top: 15vh;
     color: dodgerblue;
+    text-align: center;
 }
 .storytext{
 font-size: 6vw;
     margin-left: 3vw;
+    text-align: left;
 
 }
 .btn {
@@ -487,33 +518,35 @@ font-size: 6vw;
     background-position: -400%;
   }
 }
-}
+
 #autortext{
     position: relative;
 margin-top: 25vh;
     color: dodgerblue;
+    text-align: center;
 } 
 #autorimg{
 position: relative;
     height: 30vh;
     width: 40vw;
     margin-top: 10vh;
-    margin-left: 20vw;
     border-radius: 5px;
     box-shadow: -0px 5px 10px 0px;
+    
 }
 .autortext2{
     margin-top: 10vh;
     font-size: 6.5vw;
+    text-align: left;
 }
 #name{
 position:relative;
     margin-top: 2vh;
-    margin-left: 14.5vw;
 }
 .ads{
 margin-top: 20vh;
     color: darkcyan;
+    text-align-last: left;
 }   
     
 
