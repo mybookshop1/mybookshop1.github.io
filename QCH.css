@@ -2,7 +2,7 @@ body{
 align-content: center;
     align-items: center;
 text-align: center;
-    background-color:#ad93e6;
+    background-color:white;
     overflow-x: hidden;
 }
 .imge{
@@ -13,13 +13,13 @@ height: 250px;
     border-radius: 3px;
 }
 h1{
-    color:white;
+    color:dodgerblue;
     margin: 15px;
     }
 h2{
     margin: 20px;
     margin-top: 55px;
-    color: azure;
+    color:dodgerblue;
 }
 h3{
     text-align: left;
