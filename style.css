@@ -140,6 +140,10 @@ position:relative;
     background-color: #ff3800;
 
 }
+a{
+text-decoration: none;
+    color:aliceblue;
+}
 p{
 position:relative;
      align-items: center;
