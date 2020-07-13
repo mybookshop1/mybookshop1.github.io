@@ -1,7 +1,6 @@
-html {
-    background-color:#1d1d1d;
-    overflow-x: hidden;
-    
+html{
+     overflow-x:hidden;
+    background-color: #1d1d1d;
 }
 
 .box {
@@ -71,7 +70,7 @@ html {
 .box .content .description{
   margin-bottom: 20px;
 color: white;
-    font-size: 6vw;
+    font-size: 8vw;
     margin-left: 20%;
 margin-top: 30%;
 }
@@ -89,7 +88,7 @@ margin-top: 30%;
 }
 
 span{
-  background-color:#1a1a1a;
+  background-color:dodgerblue;
   // box-shadow: none;
 }
 
