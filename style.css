@@ -147,9 +147,48 @@ position:relative;
     text-align: center;
 }
 .footer{
+    overflow:hidden
+        ;
+    display: inline-block;
     margin-top: 25px;
     border-radius: 15px;
-height: 45vh;
-    width: 100%;
+min-height: 55vh;
+    max-height: 100vh;
+    width:95%;
     background-color: #1a1a1a;
+    float: left;
+}
+h1{
+color:aliceblue;
+    margin-top: 10px;
+}
+#davlat{
+    color: aliceblue;
+}
+.insta{
+    width: 50px;
+}
+.telega{
+    width: 45px;
+    margin-left: 0%;
+}
+
+.insad{
+color: aliceblue;
+}
+.tegad{
+color: aliceblue;
+}
+#davlat, .insta, .telega, .insad, .tegad{
+margin-left: -55%;
+}
+
+
+#java{
+    color: aliceblue;
+    margin-top: -250px;
+}
+
+#java, #insta1, #telega1, #insad1, #tegad1{
+margin-left: 60%;
 }
