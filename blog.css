@@ -1,0 +1,115 @@
+html{
+    overflow-x: hidden;
+}
+body{
+background-color:beige;
+ position: relative;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+.header{
+height: 150px;
+    width: 960px;
+    background-color: cadetblue;
+      text-align: center;
+    top: 0;
+    margin-left: 0%;
+    border-radius: 15px;
+}
+.gohome{
+    position: relative;
+    margin-left: 15px;
+}
+a{
+color:dimgray;
+    text-decoration: none;
+    position: relative;
+}
+.header h1{
+color:beige;
+    position: relative;
+    top: 50px;
+    top: 50px;
+}
+
+.public{
+    width: 92%;
+    min-height: 100px; 
+    overflow-x: none;
+    overflow-y: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 15px;
+    
+}
+.autor h2 b{
+    color:cadetblue;
+}
+.date{
+    float: right;
+    margin: 25px;
+    height: 50px;
+    width: 200px;
+}
+
+.like{
+    height: 50px;
+     display: inline-block;
+    margin: 10px;
+    margin-left: 25px;
+}
+.counterlike{
+    height: 50px;
+    width: 80px;
+    border: 1px solid black;
+    margin-left: 115px;
+    margin-top: -60px;
+    border-radius: 15px;
+     text-align: center;
+    }
+.counterlike h1{
+    position: relative;
+    top: -15px;
+}
+
+.dislike{
+    height: 50px;
+     display: inline-block;
+    margin-left: 170px;
+    margin-top: -90px;
+}
+.counterdislike{
+    height: 50px;
+    width: 80px;
+    border: 1px solid black;
+    margin-left: 410px;
+    margin-top: -90px;
+    border-radius: 15px;
+         text-align: center;
+    }
+.counterdislike h1{
+    position: relative;
+    top: -15px;
+}
+.nameclient h4{
+    color: cadetblue;
+}
+.commentsblok{
+    padding: 35px;
+    overflow-y: auto;
+}
+@media screen and (min-width:1000px){
+    .header{
+height: 150px;
+    width: 960px;
+    background-color: cadetblue;
+      text-align: center;
+    top: 0;
+    margin-left: 12%;
+    border-radius: 15px;
+}
+    
+}
