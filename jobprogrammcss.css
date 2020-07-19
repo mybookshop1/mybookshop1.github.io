@@ -1,6 +1,6 @@
-
 body{
 background-color: aliceblue;
+    overflow: auto;
 }
 section {
   height: 120px;
@@ -122,6 +122,7 @@ height: 120px;
   position: relative;
   z-index: 1;
     overflow-y: auto;
+    min-height: 900px;
 }
 .content_active {
   transform: translateX(30%);
@@ -131,88 +132,92 @@ height: 120px;
     
     text-decoration: none;
 }
-.standart{
-background-color:aliceblue;
-    height: 300px;
-    border-radius: 15px 100px 15px 100px;
-}
 
-.standart h1, .kalenplan h1 {
-    position: absolute;
-   margin-top: 130px;
-    margin-left: 100px;
-    color: dodgerblue;
-}
-.fedstan{
-    position: relative;
-    height: 200px;
-    width: 200px;
-    margin-left: 950px;
-    margin-top: 70px;
-}
+.tptc, .rgrbrn, .grgf{
 
-.jobplan{
-    height: 300px;
-    background-color:#faf0be;
-     border-radius:100px 10px 100px 10px;
-    
-}
-.jobplan h1, .jobprogramm h1, .reyting h1, .autors h1 {
-    position: absolute;
-margin-top: 120px;
-    margin-left: 100px;
-
-}
-
-.jobplan h2, .autors h2, .standart h2, .jobprogramm h2, .kalenplan h2, .reyting h2 {
-    margin-left: 100px;
-    margin-top: -50px;
-    
-}
-.progimg, .planimg, #autorimg, .calimg, .rateimg{
-     position: relative;
-    height: 180px;
-    width: 180px;
-    margin-left: 980px;
-    margin-top: 80px;
-}
-.jobprogramm{
-    
-       position: relative;
-background-color:#efdecd;
-    color:dodgerblue;
-      height: 300px;
-    border-radius: 55px 105px 55px 105px;
-}
-.calimg{
-
-height: 200px;
-    width: 200px;
-     margin-top: 70px;
-} 
-.kalenplan{
-   height: 300px;
-    background-color:#faf0be;
-     border-radius:100px 10px 100px 10px;
-}
-.kalenplan h2 {
-     margin-top: -80px;
-}
-
-.reyting{
-      height: 300px;
+    height: 60px;
+    width: 320px;
     background-color: #5d8aa8;
-        border-radius: 55px 105px 55px 105px;
+    border-radius: 15px;
+    margin: 25px;
+    margin-left:50px;
+    padding:10px;
+    display: inline-block;
+    
 }
 
-.autors{
-    position: relative;
-background-color: white;
-    color:dodgerblue;
-    height: 300px;
-    border-radius: 15px 55px 15px 55px;
+.tptc h2, .rgrbrn h2, .grgf h2 {
+    
+    color: aliceblue;
 }
-.autors h1{
-    color: dodgerblue;
-margin-left: 250px;
+.districtrg, .districtgr, .districtts{
+    position: absolute;
+min-height: 500px;
+    width: 90%;
+    background-color:white;
+    border-radius: 15px;
+    margin-left: 50px;
+    overflow: auto;
+    padding: 25px;
+    z-index: 0;
 }
+
+.districtts_active{
+z-index: 100;
+}
+.districtgr_active{
+z-index: 100;
+}
+
+.districtrg_active{
+z-index: 100;
+}
+
+
+
+
+
+
+
+.districtrg a, .districtgr a, .districtts a{
+font-size: 20px;
+    margin: 10px;
+}
+#folder{
+height: 20px;
+}
+.districtrg h2, .districtgr h2, .districtts h2{
+color: dodgerblue;
+}
+.butnext{
+ position:absolute;
+background-color:darkgray;
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    z-index: 15;
+    margin-left: 220px;
+    margin-top: -65px;
+}
+    .next1,
+.next2{
+position: absolute;
+width: 3px;
+    height: 23px;
+    background-color:aliceblue;
+    border-radius: 20px;
+    z-index: 15;
+    margin-left:20px;
+}
+.next2{
+    margin-top: 20px;
+    transform-origin:right;
+        transform: rotate(48deg);
+    margin-left:30px;
+}
+.next1{
+     margin-top: 18px;
+margin-left:15px;
+    transform-origin:right;
+    transform: rotate(-48deg);
+} 
