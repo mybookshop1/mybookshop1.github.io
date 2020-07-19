@@ -3,7 +3,7 @@ body{
 background-color: aliceblue;
 }
 section {
-  height: 120px;
+  height: 80px;
   display: flex;
   justify-content: center;
   color:dodgerblue;
@@ -24,7 +24,7 @@ section {
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  transition: 0.3s;
+  transition: 0.5s;
   transform: translateX(-100%);
       background-color: dodgerblue;
 }
@@ -70,7 +70,7 @@ top: 180px;
 .menu-btn span::after {
   content: '';
   display: block;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .menu-btn span::before {
   transform:rotate(45deg);
@@ -108,7 +108,7 @@ top: 180px;
 
 .header{
     position:relative;
-height: 120px;
+height: 90px;
     width: 100%;
     background-color: dodgerblue;
     border-radius: 15px;
@@ -118,7 +118,7 @@ height: 120px;
     color: aliceblue;
 }
 .content {
-  transition: 0.3s;
+  transition: 0.5s;
   position: relative;
   z-index: 1;
     overflow-y: auto;
@@ -133,46 +133,50 @@ height: 120px;
 }
 .standart{
 background-color:aliceblue;
-    height: 300px;
+    height: 200px;
     border-radius: 15px 100px 15px 100px;
 }
 
 .standart h1, .kalenplan h1 {
     position: absolute;
-   margin-top: 130px;
+   margin-top: 80px;
     margin-left: 100px;
     color: dodgerblue;
 }
 .fedstan{
     position: relative;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     margin-left: 950px;
     margin-top: 70px;
 }
 
 .jobplan{
-    height: 300px;
+    height: 200px;
     background-color:#faf0be;
      border-radius:100px 10px 100px 10px;
     
 }
 .jobplan h1, .jobprogramm h1, .reyting h1, .autors h1 {
     position: absolute;
-margin-top: 120px;
+margin-top: 80px;
     margin-left: 100px;
 
+}
+.jobplan h1{
+ margin-top: 50px;   
+    
 }
 
 .jobplan h2, .autors h2, .standart h2, .jobprogramm h2, .kalenplan h2, .reyting h2 {
     margin-left: 100px;
-    margin-top: -50px;
+    margin-top: -20px;
     
 }
 .progimg, .planimg, #autorimg, .calimg, .rateimg{
      position: relative;
-    height: 180px;
-    width: 180px;
+    height: 100px;
+    width: 100px;
     margin-left: 980px;
     margin-top: 80px;
 }
@@ -181,35 +185,39 @@ margin-top: 120px;
        position: relative;
 background-color:#efdecd;
     color:dodgerblue;
-      height: 300px;
+      height: 200px;
     border-radius: 55px 105px 55px 105px;
 }
 .calimg{
 
-height: 200px;
-    width: 200px;
+height: 130px;
+    width: 130px;
      margin-top: 70px;
 } 
 .kalenplan{
-   height: 300px;
+   height: 200px;
     background-color:#faf0be;
      border-radius:100px 10px 100px 10px;
 }
 .kalenplan h2 {
-     margin-top: -80px;
+     margin-top: -30px;
 }
 
 .reyting{
-      height: 300px;
+      height: 200px;
     background-color: #5d8aa8;
         border-radius: 55px 105px 55px 105px;
+}
+.reyting h1{
+     margin-top: 50px;
+    
 }
 
 .autors{
     position: relative;
 background-color: white;
     color:dodgerblue;
-    height: 300px;
+    height: 220px;
     border-radius: 15px 55px 15px 55px;
 }
 .autors h1{
