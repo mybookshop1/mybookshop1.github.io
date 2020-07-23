@@ -1,11 +1,9 @@
-
 body{
 background-color: aliceblue;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 section {
-  height: 180px;
+  height: 120px;
   display: flex;
   justify-content: center;
   color:dodgerblue;
@@ -61,7 +59,7 @@ section {
   border-radius: 50%;
   position: absolute;
   right: -45px;
-top: 195px;
+top: 145px;
 }
 .menu-btn span,
 .menu-btn span::before,
@@ -115,28 +113,24 @@ top: 195px;
 
 .header{
     position:relative;
-height: 180px;
+height: 120px;
     width: 100%;
     background-color: dodgerblue;
     border-radius: 15px;
     text-align: center;
-    justify-content: center;
 }
 .header h1 {
     color: aliceblue;
+    margin-top: 40px;
     position: relative;
-    font-size: 30px;
 }
 .content {
   transition: 0.5s;
   position: relative;
   z-index: 1;
-    overflow-y: auto;
        overflow-x: hidden;
-    overflow-y: hidden;
-    justify-content: center;
+   justify-content: center;
     align-items: center;
-    text-align: center;
 }
 .content_active {
   transform: translateX(30%);
@@ -146,50 +140,35 @@ height: 180px;
     
     text-decoration: none;
 }
-
-.title h1{
-    color: cornflowerblue;
-    margin: 60px;
-}
-.reyting, .kalendar, .programm, .modul{
-    overflow:hidden;
- display: inline-block;
-    height: 380px;
-    width: 300px;
-    background-color:cornflowerblue; 
-    border-radius: 15px 15px 50px 50px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 15px;
-    margin-top: 50px;
-}
-
-.reyting h2, .kalendar h2, .programm h2, .modul h2{
-    position: relative;
-    color:aliceblue;
-    
-}
-.reyting h2{
-    margin-top:150px;
-}
-.kalendar h2{
-margin-top: 185px;
-}
-.programm h2{
-    margin-top: 110px;
-}
-
-.modul h2{
-    margin-top: 150px;
-}
-
-.reyting h1, .kalendar h1, .programm h1, .modul h1{
-    color: white;
-    margin-top: 50px;
-}
-
-
 #logo{
     display: inline-block;
-    height: 100px;
+    height: 80px;
+    position: absolute;
+    top: 15px;
+    left: 200px
+}
+
+.theme{
+position: relative;
+min-height: 200px;
+    width: 60vw;
+    background-color: dodgerblue;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 15px;
+    margin: 50px;
+
+}
+.leksii, .prezentasii, .praktika{
+    min-height: 100px;
+    width: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: aliceblue;
+    margin: 15px;
+    
+    
+}
+.fileicon{
+    height: 25px;
 }

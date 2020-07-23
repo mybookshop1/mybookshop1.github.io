@@ -2,7 +2,7 @@
 body{
 background-color: aliceblue;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 section {
   height: 180px;
@@ -19,7 +19,7 @@ section {
 .wrapper {
   position: relative;
        overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y:auto;
 }
 .menu {
   position: fixed;
@@ -133,10 +133,11 @@ height: 180px;
   z-index: 1;
     overflow-y: auto;
        overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height:800px;
 }
 .content_active {
   transform: translateX(30%);
@@ -146,50 +147,48 @@ height: 180px;
     
     text-decoration: none;
 }
-
-.title h1{
-    color: cornflowerblue;
-    margin: 60px;
-}
-.reyting, .kalendar, .programm, .modul{
-    overflow:hidden;
- display: inline-block;
-    height: 380px;
-    width: 300px;
-    background-color:cornflowerblue; 
-    border-radius: 15px 15px 50px 50px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 15px;
-    margin-top: 50px;
-}
-
-.reyting h2, .kalendar h2, .programm h2, .modul h2{
-    position: relative;
-    color:aliceblue;
-    
-}
-.reyting h2{
-    margin-top:150px;
-}
-.kalendar h2{
-margin-top: 185px;
-}
-.programm h2{
-    margin-top: 110px;
-}
-
-.modul h2{
-    margin-top: 150px;
-}
-
-.reyting h1, .kalendar h1, .programm h1, .modul h1{
-    color: white;
-    margin-top: 50px;
-}
-
-
 #logo{
     display: inline-block;
     height: 100px;
 }
+.theme{
+height: 80px;
+    width: 70px;
+    background-color: dodgerblue;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 15px;
+}
+.tema9, .tema8, .tema7, .tema6, .tema5, .tema4, .tema3, .tema2, .tema1{
+    min-height: 120px;
+    width: 1000px;
+    position: absolute;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    overflow-y: auto;
+    transform: translateX(0%);
+     transition: 1s;
+    left: 180px;
+}
+
+.tema1_d, .tema2_d, .tema3_d, .tema4_d, .tema5_d, .tema6_d, .tema7_d, .tema8_d, .tema9_d {
+  transform: translateX(-550%);
+    
+}
+
+
+
+.leksii, .prezentatsii, .praktika{
+width: 300px;
+    display: inline-block;
+    min-height: 230px;
+    position:relative;
+    overflow-y: auto;
+}
+.fileIcon{
+    height: 25px;
+}
+.theme a{
+color: aliceblue;
+}
+
