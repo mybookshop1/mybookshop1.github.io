@@ -27,7 +27,7 @@ section {
   z-index: 99;
   width: 30%;
   height: 100vh;
-  display: flex;
+  display: flex;п
   align-items: center;
   justify-content: center;
   background-color: #fff;
@@ -189,6 +189,6 @@ width: 300px;
     height: 25px;
 }
 .theme a{
-color: aliceblue;
+color: aliceblue;    
 }
 
