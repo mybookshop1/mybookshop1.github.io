@@ -1,31 +1,25 @@
+
 body{
-background-color:#318ce7;
+background-color: aliceblue;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 section {
   height: 180px;
   display: flex;
   justify-content: center;
-  background-color:#318ce7;
+  color:dodgerblue;
        overflow-x: hidden;
     overflow-y: hidden;
-    border-radius: 20px;
 }
 .main {
-     margin-top: 15px;
- background-color:#318ce7;
+  background-color: white;
     
-}
-.main h3{
-    margin-top: 25px;
-    font-size: 18px;
-   color: aliceblue; 
 }
 .wrapper {
   position: relative;
        overflow-x: hidden;
-    overflow-y:auto;
+    overflow-y: hidden;
 }
 .menu {
   position: fixed;
@@ -118,17 +112,31 @@ top: 195px;
   left: 50%; margin-left: -10px;
 }
 
+
+.header{
+    position:relative;
+height: 180px;
+    width: 100%;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+}
+.header h1 {
+    color: aliceblue;
+    position: relative;
+    font-size: 30px;
+}
 .content {
   transition: 0.5s;
   position: relative;
   z-index: 1;
     overflow-y: auto;
        overflow-x: hidden;
-    overflow-y:auto;
+    overflow-y: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:#318ce7;
 }
 .content_active {
   transform: translateX(30%);
@@ -138,46 +146,36 @@ top: 195px;
     
     text-decoration: none;
 }
-.logo{
-    display: inline-block;
-    height: 170px;
-    margin-left: -1200px;
-    margin-top: -35px;
-    position: absolute;
+
+.title h1{
+    color: cornflowerblue;
+    margin: 60px;
 }
-.blackC{
-height: 65px;    
-position: absolute;
-    margin-left: 475px;
-    opacity: 0.8;
+.ts, .gr, .rn{
+    overflow:hidden;
+ display: inline-block;
+    height: 270px;
+    width: 250px;
+    background-color:cornflowerblue; 
+    border-radius: 15px 15px 50px 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
 }
-.planC{
-   height: 350px; 
-    float: right;
-     margin-top: 60px;
-}
-.progC{
-height: 400px;
-    float: left;
-    margin-top: 20px;
-}
-.edu{
-position: absolute;
-    margin-left: 510px;
-    margin-top: 50px;
-color: aliceblue;
+
+.ts h2, .gr h2, .rn h2{
+    margin-top: 120px;
+    position: relative;
+    color:aliceblue;
     
 }
-.go{
-position: absolute;
-    font-size: 20px;
-    margin-top: 200px;
-    margin-left: -180px;
-    color:white;
+.ts h1, .gr h1, .rn h1{
+    color: white;
+    margin-top: 50px;
 }
-h4{
-    position: absolute;
-    color: aliceblue;
-    margin-top:380px;
-    margin-left:640px; 
+
+
+#logo{
+    display: inline-block;
+    height: 100px;
 }
