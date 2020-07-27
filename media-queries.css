@@ -46,6 +46,17 @@ h4{
     font-size: 14px;
    color: aliceblue; 
 }   
+    .tema1{
+    min-height: 120px;
+    width: 1000px;
+    position: absolute;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    overflow-y: auto;
+    transform: translateX(0%);
+     transition: 1s;
+    left: 0px;
+}
     
     
 }
@@ -56,6 +67,7 @@ h4{
     margin-left: -2.5%;
     margin-top: -5px;
     position:relative;
+     display: none;
 }
 .planC{
    height: 270px; 
@@ -111,6 +123,7 @@ h4{
     margin-left: -4%;
     margin-top: -5px;
     position:relative;
+     display: none;
 }
 .planC{
    height: 100px; 
