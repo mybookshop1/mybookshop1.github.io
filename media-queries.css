@@ -1,5 +1,23 @@
 @media screen and (max-width:1025px){
- .logo{
+ 
+    .tema9, .tema8, .tema7, .tema6, .tema5, .tema4, .tema3, .tema2, .tema1{
+    min-height: 120px;
+    width: 1000px;
+    position: absolute;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    overflow-y: auto;
+    transform: translateX(0%);
+     transition: 1s;
+    left: 0px;
+} 
+    
+    .tema1_d, .tema2_d, .tema3_d, .tema4_d, .tema5_d, .tema6_d, .tema7_d, .tema8_d, .tema9_d {
+  transform: translateX(-550%);
+    
+}
+    
+    .logo{
     display: inline-block;
     height: 140px;
     margin-left: -2.5%;
@@ -46,22 +64,11 @@ h4{
     font-size: 14px;
    color: aliceblue; 
 }   
-    .tema1{
-    min-height: 120px;
-    width: 1000px;
-    position: absolute;
-    background-color: dodgerblue;
-    border-radius: 15px;
-    overflow-y: auto;
-    transform: translateX(0%);
-     transition: 1s;
-    left: 0px;
-}
     
     
 }
 @media screen and (max-width:769px){
- .logo{
+    .logo{
     display: inline-block;
     height: 120px;
     margin-left: -2.5%;
@@ -112,7 +119,8 @@ h4{
 }   
     
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:450px){ 
+    
     .menu a{
         font-size: 8px;
         
@@ -170,7 +178,9 @@ h4{
     
 }
 @media screen and (max-width:380px){
-       .menu a{
+    
+    
+    .menu a{
         font-size: 8px;
         
     }
@@ -232,6 +242,7 @@ h4{
     }   
 }
 @media screen and (max-width:325px){
+    
     
            .menu a{
         font-size: 8px;
