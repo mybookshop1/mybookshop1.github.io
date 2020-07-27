@@ -1,140 +1,284 @@
-
 @media screen and (max-width:1025px){
-    .theme{
-height: 80px;
-    width: 70px;
-    background-color: dodgerblue;
+ .logo{
     display: inline-block;
-    margin: 10px;
-    border-radius: 15px;
+    height: 140px;
+    margin-left: -2.5%;
+    margin-top: -5px;
+    position:relative;
 }
-.tema9, .tema8, .tema7, .tema6, .tema5, .tema4, .tema3, .tema2, .tema1{
-    min-height: 120px;
-    width: 1000px;
-    position: absolute;
-    background-color: dodgerblue;
-    border-radius: 15px;
-    overflow-y: auto;
-    transform: translateX(0%);
-     transition: 1s;
-    left: 0px;
+.planC{
+   height: 350px; 
+    float: right;
+     margin-top:42%;
 }
-
-.tema1_d, .tema2_d, .tema3_d, .tema4_d, .tema5_d, .tema6_d, .tema7_d, .tema8_d, .tema9_d {
-  transform: translateX(-550%);
+.progC{
+height: 400px;
+    float: left;
+    margin-top: 70%;
+}
+.edu{
+position:relative;
+    margin-left: 30%;
+    margin-top:15%;
+color: aliceblue;
     
 }
-    .main {
-     margin-top: 25px;
+.go{
+position:relative;
+    font-size: 20px;
+    margin-top:20%;
+    margin-left: -5%;
+    color:white;
+}
+h4{
+    position:relative;
+    color: aliceblue;
+    margin-top:70%;
+    margin-right:30%;
+}
+.main {
+     margin-top: 15px;
  background-color:#318ce7;
     
 }
 .main h3{
     margin-top: 25px;
-    font-size: 12px;
+    font-size: 14px;
    color: aliceblue; 
+}   
+    
+    
 }
-.logo{
+@media screen and (max-width:769px){
+ .logo{
     display: inline-block;
-    height: 170px;
-    margin-left: -900px;
-    margin-top: -35px;
-    position: absolute;
-}
-.blackC{
-height: 45px;    
-position: absolute;
-    margin-left: 340px;
-    opacity: 0.8;
-    margin-top: 300px;
+    height: 120px;
+    margin-left: -2.5%;
+    margin-top: -5px;
+    position:relative;
 }
 .planC{
-   height: 300px; 
+   height: 270px; 
     float: right;
-     margin-top: 360px;
+     margin-top:42%;
 }
 .progC{
-height: 300px;
+height: 270px;
     float: left;
-    margin-top: 800px;
+    margin-top: 50%;
 }
 .edu{
-position: absolute;
-    margin-left: 330px;
-    margin-top: 250px;
+position:relative;
+    margin-left: 30%;
+    margin-top:15%;
+    font-size: 15px;
 color: aliceblue;
     
 }
 .go{
-position: absolute;
-    font-size: 20px;
-    margin-top: 500px;
-    margin-left: -160px;
+position:relative;
+    font-size: 15px;
+    margin-top:20%;
+    margin-left: -5%;
     color:white;
 }
 h4{
-    position: absolute;
+    position:relative;
     color: aliceblue;
-    margin-top:1000px;
-    margin-left:500px; 
+    margin-top:60%;
+    margin-right:0%;
 }
-}
-
-@media screen and (max-width:770px){
-    .main {
-     margin-top: 25px;
+.main {
+     margin-top: 15px;
  background-color:#318ce7;
     
 }
 .main h3{
     margin-top: 25px;
-    font-size: 12px;
+    font-size: 10.5px;
    color: aliceblue; 
+}   
+    
 }
-.logo{
+@media screen and (max-width:450px){
+    .menu a{
+        font-size: 8px;
+        
+    }
+ .logo{
     display: inline-block;
-    height: 170px;
-    margin-left: 2000px;
-    margin-top: -35px;
-    position: absolute;
-}
-.blackC{
-height: 45px;    
-position: absolute;
-    margin-left: 340px;
-    opacity: 0;
-    margin-top: 300px;
+    height: 80px;
+    margin-left: -4%;
+    margin-top: -5px;
+    position:relative;
 }
 .planC{
-   height: 300px; 
+   height: 100px; 
     float: right;
-     margin-top: 360px;
+     margin-top:52%;
 }
 .progC{
-height: 300px;
+height: 140px;
     float: left;
-    margin-top: 800px;
+    margin-top: 50%;
 }
 .edu{
-position: absolute;
-    margin-left: 330px;
-    margin-top: 250px;
+position:relative;
+    margin-left: 30%;
+    margin-top:10%;
+    font-size: 15px;
 color: aliceblue;
     
 }
 .go{
-position: absolute;
-    font-size: 20px;
-    margin-top: 500px;
-    margin-left: -160px;
+position:relative;
+    font-size: 15px;
+    margin-top:20%;
+    margin-left: -5%;
     color:white;
 }
 h4{
-    position: absolute;
+    position:relative;
     color: aliceblue;
-    margin-top:1000px;
-    margin-left:500px; 
+    margin-top:60%;
+    margin-right:0%;
 }
-
-
+.main {
+     margin-top: 15px;
+ background-color:#318ce7;
+    
+}
+.main h3{
+    margin-top: 5px;
+    font-size: 9px;
+   color: aliceblue; 
+    margin-left: -30px;
+}      
+    
+}
+@media screen and (max-width:380px){
+       .menu a{
+        font-size: 8px;
+        
+    }
+ .logo{
+    display: inline-block;
+    height: 80px;
+    margin-left: -4%;
+    margin-top: -5px;
+    position:relative;
+     display: none;
+}
+.planC{
+   height: 90px; 
+    float: right;
+     margin-top:52%;
+}
+.progC{
+height: 140px;
+    float: left;
+    margin-top: 50%;
+}
+.edu{
+position:relative;
+    margin-left:2%;
+    margin-top:-8%;
+    font-size: 10px;
+color: aliceblue;
+    
+}
+.go h3{
+position:relative;
+    font-size: 10px;
+    margin-top:20%;
+    margin-right: 130px;
+    color:white;
+}
+h4{
+    position:relative;
+    color: aliceblue;
+    margin-top:80%;
+    margin-right:0%;
+    font-size: 8px;
+}
+.main {
+     margin-top: 15px;
+ background-color:#318ce7;
+    
+}
+.main h3{
+    margin-top: 5px;
+    font-size: 9px;
+   color: aliceblue; 
+    margin-left: 0px;
+}    
+    .menu-btn{
+        margin-top: -85px;
+        height: 35px;
+        width: 35px;
+    }   
+}
+@media screen and (max-width:325px){
+    
+           .menu a{
+        font-size: 8px;
+        
+    }
+ .logo{
+    display: inline-block;
+    height: 80px;
+    margin-left: -4%;
+    margin-top: -5px;
+    position:relative;
+     display: none;
+}
+.planC{
+   height: 60px; 
+    float: right;
+     margin-top:52%;
+}
+.progC{
+height: 120px;
+    float: left;
+    margin-top: 40%;
+}
+.edu{
+position:relative;
+    margin-left:2%;
+    margin-top:-8%;
+    font-size: 10px;
+color: aliceblue;
+    
+}
+.go h3{
+position:relative;
+    font-size: 10px;
+    margin-top:20%;
+    margin-right: 130px;
+    color:white;
+}
+h4{
+    position:relative;
+    color: aliceblue;
+    margin-top:70%;
+    margin-right:0%;
+    font-size: 8px;
+}
+.main {
+     margin-top: 15px;
+ background-color:#318ce7;
+    
+}
+.main h3{
+    margin-top: 5px;
+    font-size: 9px;
+   color: aliceblue; 
+    margin-left: 0px;
+}    
+    .menu-btn{
+        margin-top: -85px;
+        height: 30px;
+        width: 30px;
+    } 
+    
 }
