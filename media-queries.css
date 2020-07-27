@@ -1,4 +1,4 @@
-@media screen and (max-width:1080px){
+@media screen and (max-width:1025px){
  
     .tema9, .tema8, .tema7, .tema6, .tema5, .tema4, .tema3, .tema2, .tema1{
     min-height: 120px;
@@ -61,8 +61,9 @@ h4{
 }
 .main h3{
     margin-top: 25px;
-    font-size: 10px;
-   color: aliceblue; 
+    font-size: 9px;
+   color: aliceblue;
+     padding: 2px;
 }   
     
     
@@ -171,9 +172,10 @@ h4{
 }
 .main h3{
     margin-top: 5px;
-    font-size: 9px;
+    font-size: 6.2px;
    color: aliceblue; 
     margin-left: -30px;
+    padding: 2px;
 }      
     
 }
