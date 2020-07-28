@@ -64,6 +64,7 @@ h4{
     font-size: 9px;
    color: aliceblue;
      padding: 2px;
+    display: none;
 }   
     
     
@@ -117,6 +118,7 @@ h4{
     margin-top: 25px;
     font-size: 10.5px;
    color: aliceblue; 
+    display: none;
 }   
     
 }
@@ -176,6 +178,7 @@ h4{
    color: aliceblue; 
     margin-left: -30px;
     padding: 2px;
+    display: none;
 }      
     
 }
