@@ -113,6 +113,22 @@ h4{
  background-color:#318ce7;
     
 }
+.main h3{
+    margin-top: 25px;
+    font-size:11px;
+   color: aliceblue;
+    margin-left: 100px;
+}  
+    section {
+  height: 195px;
+        width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color:#318ce7;
+       overflow-x: hidden;
+    overflow-y:auto;
+    border-radius: 20px;
+}
     
 }
 @media screen and (max-width:450px){ 
