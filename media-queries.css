@@ -120,7 +120,7 @@ h4{
 }  
     
 }
-/*@media screen and (max-width:450px){ 
+@media screen and (max-width:450px){ 
     
     .menu a{
         font-size: 8px;
@@ -178,7 +178,7 @@ h4{
 }      
     
 }
-@media screen and (max-width:380px){
+/*@media screen and (max-width:380px){
     
     
     .menu a{
