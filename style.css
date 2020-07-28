@@ -12,7 +12,7 @@ section {
   justify-content: center;
   background-color:#318ce7;
        overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y:auto;
     border-radius: 20px;
 }
 .wrapper {

@@ -64,7 +64,6 @@ h4{
     font-size: 9px;
    color: aliceblue;
      padding: 2px;
-    display: none;
 }   
     
     
@@ -116,8 +115,8 @@ h4{
 }
 .main h3{
     margin-top: 25px;
-    font-size: 20px;
-   color:red;
+    font-size:11px;
+   color: aliceblue;
 }  
     section {
   height: 195px;
