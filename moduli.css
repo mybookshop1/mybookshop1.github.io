@@ -9,6 +9,7 @@ section {
   color:dodgerblue;
        overflow-x: hidden;
     overflow-y: hidden;
+    border-radius: 25px;
 }
 .main {
   background-color: white;

@@ -10,6 +10,7 @@ section {
   color:dodgerblue;
        overflow-x: hidden;
     overflow-y: hidden;
+    border-radius: 25px;
 }
 .main {
   background-color: white;
@@ -125,10 +126,11 @@ height: 180px;
     color: aliceblue;
     position: relative;
     font-size: 30px;
+    margin-top: -5px;
 }
 #logo{
     display: inline-block;
-    height: 100px;
+    height: 70px;
 }
 .content {
   transition: 0.5s;
