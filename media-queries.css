@@ -59,9 +59,15 @@ margin-left:30%;
     justify-content: center;
     align-items: center;
 }    
+    section {
+      border-radius: 25px;  
+    }
 }
 @media screen and (max-width:769px){
-  .content{
+   section {
+      border-radius: 25px;  
+    }
+    .content{
         justify-content: center;
         align-items: center;
       text-align-last: center;}
@@ -101,7 +107,10 @@ margin-left:28%;
     
 }
 @media screen and (max-width:450px){ 
- .content{
+  section {
+      border-radius: 25px;  
+    }
+    .content{
         justify-content: center;
         align-items: center;
       text-align-last: center;}
@@ -143,6 +152,9 @@ background-color:#5536f1;
     }
 }
 @media screen and (max-width:380px){
+   section {
+      border-radius: 25px;  
+    }
     body{
 background-color:#5536f1;
     }
@@ -186,6 +198,9 @@ margin-left:10%;
     } 
 }
 @media screen and (max-width:325px){
+   section {
+      border-radius: 25px;  
+    }
     body{
         background-color:#5536f1;
         
