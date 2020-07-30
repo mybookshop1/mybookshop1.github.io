@@ -23,6 +23,7 @@ justify-content: center;
     body{
 justify-content: center;
         align-items: center;
+        background-color:#5536f1;
     }
     .content{
         justify-content: center;
@@ -64,6 +65,10 @@ margin-left:30%;
         justify-content: center;
         align-items: center;
       text-align-last: center;}
+    body{
+        background-color:#5536f1;
+        
+    }
     
     .go h3{
 position:absolute;
@@ -133,9 +138,16 @@ margin-left:10%;
         font-size: 8px;
         
     }
+    body{
+background-color:#5536f1;
+    }
 }
 @media screen and (max-width:380px){
-  .content{
+    body{
+background-color:#5536f1;
+    }
+    
+    .content{
         justify-content: center;
         align-items: center;
       text-align-last: center;}
@@ -174,7 +186,11 @@ margin-left:10%;
     } 
 }
 @media screen and (max-width:325px){
-    
+    body{
+        background-color:#5536f1;
+        
+    }
+  
     .content{
         justify-content: center;
         align-items: center;
