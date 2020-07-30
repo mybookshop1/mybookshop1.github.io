@@ -7,7 +7,7 @@ background-color:#318ce7;
     text-align: center;
 }
 section {
-  height: 195px;
+  height:0px;
   display: flex;
   justify-content: center;
   background-color:#318ce7;
@@ -117,14 +117,13 @@ top: 195px;
 .content {
   transition: 0.5s;
   position: relative;
-  z-index: 1;
+  z-index: 5;
     overflow-y: auto;
        overflow-x: hidden;
     overflow-y:auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:#318ce7;
 }
 .content_active {
   transform: translateX(30%);
@@ -134,51 +133,26 @@ top: 195px;
     
     text-decoration: none;
 }
-.logo{
-    display: inline-block;
-    height: 170px;
-    margin-left: -5%;
-    margin-top: -5px;
-    position:relative;
-}
-.planC{
-   height: 350px; 
-    float: right;
-     margin-top:2%;
-}
-.progC{
-height: 400px;
-    float: left;
-    margin-top: 1%;
-}
-.edu{
-position:relative;
-    margin-left: 20%;
-    margin-top:5%;
-color: aliceblue;
-    
-}
-.go{
-position:relative;
-    font-size: 20px;
-    margin-top:30%;
-    margin-left: 30%;
+.go h3{
+position:absolute;
+    font-size: 25px;
+    margin-left:42%;
+    top: 75%;
     color:white;
+    z-index: 15;
 }
-h4{
-    position:relative;
-    color: aliceblue;
-    margin-top:15%;
-    margin-right:0%;
+#fonkomp{
+  position: relative;
+    top: 0;
+    height: 800px;
+    z-index: 0;
 }
-.main {
-     margin-top: 15px;
- background-color:#318ce7;
+#fontel{
+    display: none;
+}
+#fonplanshet{
     
+    display: none;
 }
-.main h3{
-    margin-top: 20px;
-    font-size: 17px;
-   color: aliceblue; 
-margin-left: 10px;
-}
+
+

@@ -16,294 +16,201 @@
   transform: translateX(-550%);
     
 }
-    
-    .logo{
-    display: inline-block;
-    height: 140px;
-    margin-left: -2.5%;
-    margin-top: -5px;
-    position:relative;
-}
-.planC{
-   height: 350px; 
-    float: right;
-     margin-top:42%;
-}
-.progC{
-height: 400px;
-    float: left;
-    margin-top: 70%;
-}
-.edu{
-position:relative;
-    margin-left: 30%;
-    margin-top:15%;
-color: aliceblue;
-    
-}
-.go{
-position:relative;
-    font-size: 20px;
-    margin-top:20%;
-    margin-left: -5%;
+    html{
+justify-content: center;
+        align-items: center;
+    }
+    body{
+justify-content: center;
+        align-items: center;
+    }
+    .content{
+        justify-content: center;
+        align-items: center;
+        text-align-last: center;
+        
+    }
+.go h3{
+position:absolute;
+    font-size:35px;
+margin-left:30%;
+    top: 65%;
     color:white;
+    z-index: 15;
 }
-h4{
-    position:relative;
-    color: aliceblue;
-    margin-top:70%;
-    margin-right:30%;
+#fonkomp{
+  position: relative;
+    top: 0;
+    height: 800px;
+    z-index: 0;
+    display: none;
 }
-.main {
-     margin-top: 15px;
- background-color:#318ce7;
+#fontel{
+    display: none;
     
 }
-.main h3{
-    margin-top: 25px;
-    font-size: 9px;
-   color: aliceblue;
-     padding: 2px;
-}   
-    
-    
+#fonplanshet{
+      z-index: 0;
+    display:block;
+    position: relative;
+    height: 1200px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+}    
 }
 @media screen and (max-width:769px){
-    .logo{
-    display: inline-block;
-    height: 10px;
-    margin-left: -2.5%;
-    margin-top: -5px;
-    position:relative;
-    opacity: 0;
-}
-.planC{
-   height: 270px; 
-    float: right;
-     margin-top:42%;
-}
-.progC{
-height: 270px;
-    float: left;
-    margin-top: 50%;
-}
-.edu{
-position:relative;
-    margin-left: 30%;
-    margin-top:15%;
-    font-size: 15px;
-color: aliceblue;
+  .content{
+        justify-content: center;
+        align-items: center;
+      text-align-last: center;}
     
-}
-.go{
-position:relative;
-    font-size: 15px;
-    margin-top:20%;
-    margin-left: -5%;
+    .go h3{
+position:absolute;
+    font-size:30px;
+margin-left:28%;
+    top: 65%;
     color:white;
+    z-index: 15;
 }
-h4{
-    position:relative;
-    color: aliceblue;
-    margin-top:60%;
-    margin-right:0%;
+#fonkomp{
+  position: relative;
+    top: 0;
+    height: 800px;
+    z-index: 0;
+    display: none;
 }
-.main {
-     margin-top: 15px;
- background-color:#318ce7;
+#fontel{
+    display: none;
     
 }
-.main h3{
-    margin-top: 25px;
-    font-size:11px;
-   color: aliceblue;
+#fonplanshet{
+      z-index: 0;
+    display:block;
+    position: relative;
+    height: 950px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
 }  
     
 }
 @media screen and (max-width:450px){ 
+ .content{
+        justify-content: center;
+        align-items: center;
+      text-align-last: center;}
     
-    .menu a{
+    .go h3{
+position:absolute;
+    font-size:25px;
+margin-left:10%;
+    top: 65%;
+    color:white;
+    z-index: 15;
+}
+#fonkomp{
+  position: relative;
+    top: 0;
+    height: 800px;
+    z-index: 0;
+    display: none;
+}
+#fontel{
+      z-index: 0;
+    display:block;
+    position: relative;
+    height: 700px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#fonplanshet{
+  display: none;
+} 
+      .menu a{
         font-size: 8px;
         
     }
- .logo{
-    display: inline-block;
-    height: 10px;
-    margin-left: -4%;
-    margin-top: -5px;
-    position:relative;
-    opacity: 0;
-}
-.planC{
-   height: 100px; 
-    float: right;
-     margin-top:52%;
-}
-.progC{
-height: 140px;
-    float: left;
-    margin-top: 50%;
-}
-.edu{
-position:relative;
-    margin-left: 30%;
-    margin-top:10%;
-    font-size: 15px;
-color: aliceblue;
-    
-}
-.go{
-position:relative;
-    font-size: 15px;
-    margin-top:20%;
-    margin-left: -5%;
-    color:white;
-}
-h4{
-    position:relative;
-    color: aliceblue;
-    margin-top:60%;
-    margin-right:0%;
-}
-.main {
-     margin-top: 15px;
- background-color:#318ce7;
-    
-}
-.main h3{
-    margin-top: 5px;
-    font-size: 6.2px;
-   color: aliceblue; 
-    margin-left:0px;
-}      
-    
 }
 @media screen and (max-width:380px){
+  .content{
+        justify-content: center;
+        align-items: center;
+      text-align-last: center;}
     
+    .go h3{
+position:absolute;
+    font-size:25px;
+margin-left:10%;
+    top: 65%;
+    color:white;
+    z-index: 15;
+}
+#fonkomp{
+  position: relative;
+    top: 0;
+    height: 800px;
+    z-index: 0;
+    display: none;
+}
+#fontel{
+      z-index: 0;
+    display:block;
+    position: relative;
+    height: 650px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
     
-    .menu a{
+}
+#fonplanshet{
+  display: none;
+} 
+      .menu a{
         font-size: 8px;
         
-    }
- .logo{
-    display: inline-block;
-    height: 10px;
-    margin-left: -4%;
-    margin-top: -5px;
-    position:relative;
-     opacity: 0;
-}
-.planC{
-   height: 90px; 
-    float: right;
-     margin-top:52%;
-}
-.progC{
-height: 140px;
-    float: left;
-    margin-top: 50%;
-}
-.edu{
-position:relative;
-    margin-left:2%;
-    margin-top:-8%;
-    font-size: 10px;
-color: aliceblue;
-    
-}
-.go h3{
-position:relative;
-    font-size: 10px;
-    margin-top:20%;
-    margin-right: 130px;
-    color:white;
-}
-h4{
-    position:relative;
-    color: aliceblue;
-    margin-top:80%;
-    margin-right:0%;
-    font-size: 8px;
-}
-.main {
-     margin-top: 15px;
- background-color:#318ce7;
-    
-}
-.main h3{
-    margin-top: 5px;
-    font-size: 9px;
-   color: aliceblue; 
-    margin-left: 0px;
-}    
-    .menu-btn{
-        margin-top: -85px;
-        height: 35px;
-        width: 35px;
-    }   
+    } 
 }
 @media screen and (max-width:325px){
     
+    .content{
+        justify-content: center;
+        align-items: center;
+      text-align-last: center;}
     
-           .menu a{
+    .go h3{
+position:absolute;
+    font-size:15px;
+margin-left:20%;
+    top: 65%;
+    color:white;
+    z-index: 15;
+}
+#fonkomp{
+  position: relative;
+    top: 0;
+    height: 800px;
+    z-index: 0;
+    display: none;
+}
+#fontel{
+      z-index: 0;
+    display:block;
+    position: relative;
+    height: 550px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#fonplanshet{
+  display: none;
+} 
+      .menu a{
         font-size: 8px;
         
-    }
- .logo{
-    display: inline-block;
-    height: 10px;
-    margin-left: -4%;
-    margin-top: -5px;
-    position:relative;
-    opacity: 0;
-}
-.planC{
-   height: 60px; 
-    float: right;
-     margin-top:52%;
-}
-.progC{
-height: 120px;
-    float: left;
-    margin-top: 40%;
-}
-.edu{
-position:relative;
-    margin-left:2%;
-    margin-top:-8%;
-    font-size: 10px;
-color: aliceblue;
-    
-}
-.go h3{
-position:relative;
-    font-size: 10px;
-    margin-top:20%;
-    margin-right: 130px;
-    color:white;
-}
-h4{
-    position:relative;
-    color: aliceblue;
-    margin-top:70%;
-    margin-right:0%;
-    font-size: 8px;
-}
-.main {
-     margin-top: 15px;
- background-color:#318ce7;
-    
-}
-.main h3{
-    margin-top: 5px;
-    font-size: 9px;
-   color: aliceblue; 
-    margin-left: 0px;
-}    
-    .menu-btn{
-        margin-top: -85px;
-        height: 30px;
-        width: 30px;
     } 
     
 }
