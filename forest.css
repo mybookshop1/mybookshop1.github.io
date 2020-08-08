@@ -54,7 +54,7 @@ body{
   background: #2D112B;
   display: block;
   position: absolute;
-  top: 95.5%;
+  top: 98.1%;
   left: 0;
   right: 0;
   height: 2000px;
@@ -62,10 +62,10 @@ body{
 }
 
 .parallax__layer__0{
-    transform: translateZ(-10px);
+    transform: translateZ(-12px);
 }
 .parallax__layer__1{
-    transform: translateZ(-15px)
+    transform: translateZ(-12px)
 }
 .parallax__layer__2{
     transform: translateZ(-10px)
@@ -77,8 +77,8 @@ body{
     transform: translateZ(5px)
 }
 .parallax__layer__5{
-    transform: translateZ(2px) scaleZ(9)
+    transform: translateZ(0px) scaleZ(9)
 }
 .parallax__layer__6{
-    transform: translateZ(10px) scaleZ(1)
+    transform: translateZ(4px) 
 }
