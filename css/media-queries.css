@@ -53,17 +53,20 @@ margin-left:30%;
 #fonplanshet{
       z-index: 0;
     display:block;
-    position: relative;
+    position: absolute;
     height: 1200px;
     width: 1000px;
     justify-content: center;
     align-items: center;
+        text-align: center;
 }    
     section {
       border-radius: 25px;  
     }
+  
 }
 @media screen and (max-width:769px){
+    
    section {
       border-radius: 25px;  
     }
@@ -98,11 +101,12 @@ margin-left:28%;
 #fonplanshet{
       z-index: 0;
     display:block;
-    position: relative;
+    position: absolute;
     height: 950px;
     width: 800px;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }  
     
 }
@@ -117,8 +121,8 @@ margin-left:28%;
     
     .go h3{
 position:absolute;
-    font-size:25px;
-margin-left:10%;
+    font-size:15px;
+margin-left:26%;
     top: 65%;
     color:white;
     z-index: 15;
@@ -133,11 +137,12 @@ margin-left:10%;
 #fontel{
       z-index: 0;
     display:block;
-    position: relative;
+    position: absolute;
     height: 700px;
     width: 400px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
 #fonplanshet{
@@ -166,9 +171,9 @@ background-color:#5536f1;
     
     .go h3{
 position:absolute;
-    font-size:25px;
-margin-left:10%;
-    top: 65%;
+    font-size:15px;
+margin-left:25%;
+    top: 75%;
     color:white;
     z-index: 15;
 }
@@ -182,11 +187,12 @@ margin-left:10%;
 #fontel{
       z-index: 0;
     display:block;
-    position: relative;
+    position: absolute;
     height: 650px;
     width: 400px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
 #fonplanshet{
@@ -214,7 +220,7 @@ margin-left:10%;
     .go h3{
 position:absolute;
     font-size:15px;
-margin-left:20%;
+margin-left:25%;
     top: 65%;
     color:white;
     z-index: 15;
@@ -229,11 +235,12 @@ margin-left:20%;
 #fontel{
       z-index: 0;
     display:block;
-    position: relative;
+    position: absolute;
     height: 550px;
     width: 300px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
 #fonplanshet{
