@@ -3,6 +3,7 @@ background-color:#5536f1;
     overflow-x: hidden;
     overflow-y: auto;
     margin-top: -5px;
+    margin-left: -5px;
 }
 section {
   height:0px;
