@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Премиум</title>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap" rel="stylesheet">
+        <script src="jquery/jquery-1.11.0.min.js"></script>
+    <script>
+ $(document).ready(function(){
+    
+    $('.wrap').addClass('wrap_d');
+    $('.wrap_money').addClass('wrap_money_a');
+   
+  
+    $('.gotarif').on('click', function(e) {
+  e.preventDefault();
+            
+    $('.wrap').removeClass('wrap_d');
+    $('.wrap_money').removeClass('wrap_money_a');
+        
+        $('.wrap').addClass('wrap_a');
+    $('.wrap_money').addClass('wrap_money_d');
+        
+    });
+     
+        $('.goearning').on('click', function(e) {
+  e.preventDefault();
+            
+    $('.wrap').removeClass('wrap_a');
+    $('.wrap_money').removeClass('wrap_money_d');
+        
+        $('.wrap').addClass('wrap_d');
+    $('.wrap_money').addClass('wrap_money_a');
+        
+    });
+     
+ });
+    
+    </script>
+</head>
+<body>
+   <style>
+       body{
+overflow-x: hidden;
+       }
+         .circle2{
+           height: 300px;
+           width: 300px;
+           border-radius: 100%;
+           border: 20px solid #A1E3DF;
+           position: absolute;
+           left: 570px;
+           top: 150px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           }
+       .countmoney{
+position: relative;
+           font-size: 70px;
+           font-weight:900;
+        font-family: 'Commissioner', sans-serif;
+       }
+       .vash{
+           position: absolute;
+           left: 120px;
+           top: 10px;
+           font-weight: normal;
+           font-family: 'Commissioner', sans-serif; 
+       }
+       
+       img{
+           width: 50px;
+           height: 50px;
+           position: absolute;
+           left: 30px;
+           top: 30px;
+       }
+       .circle{
+           height: 300px;
+           width: 300px;
+           border-radius: 100%;
+           border: 20px solid #A1E3DF;
+           position: absolute;
+           left: 40px;
+           top: 150px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           }
+       .vi{
+           position: absolute;
+           left: 130px;
+           top: -20px;
+           font-weight: normal;
+           font-family: 'Commissioner', sans-serif;
+       }
+       .prig{
+           position: absolute;
+           font-weight: normal;
+           font-family: 'Commissioner', sans-serif;
+left: 60px;
+top: 10px;
+       }
+       .count{
+position: relative;
+           font-size: 110px;
+           font-weight:bold;
+        font-family: 'Commissioner', sans-serif;
+       }
+       .polz{
+position: absolute;
+       top: 210px;
+           left: 100px;
+           font-weight: normal;
+           font-family: 'Commissioner', sans-serif;
+       }
+       .gotarif{
+           position: absolute;
+           height: 100px;
+           width: 380px;
+           background-color: #A1E3DF;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 17px;
+            top: 550px;
+           left:  40px;
+          font-family: 'Commissioner', sans-serif;
+              font-weight: normal;
+           cursor: pointer;
+       }
+       .getmoney{
+           position: absolute;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+            border-radius: 17px;
+           height: 100px;
+           width: 320px;
+           background-color: #E5EAFE;
+           top: 550px;
+           right: 80px;
+           font-family: 'Commissioner', sans-serif;
+           color: black;
+              font-weight: normal;
+           }
+       .reftext{
+  position: absolute;
+           font-family: 'Commissioner', sans-serif;
+              left: 36%;
+           top: 800px;
+            font-weight: normal;
+       }
+       .reftext h1{
+           font-weight: bolder;
+           font-family: 'Commissioner', sans-serif;
+       }
+       .refcard{
+           position: absolute;
+           background-color: #E5EAFE;
+height: 500px;
+           width: 95vw;
+           border-radius: 17px;
+           left: 2.3%;
+           top: 900px;
+       }
+       .valuestd, .valueslv, .valuegld{
+           position: absolute;
+           height: 80px;
+           width: 50vw;
+           background-color: #D5E0F4;
+           right: 30px;
+           border-radius: 17px;
+           top: 60px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-weight: normal;
+            font-family: 'Commissioner', sans-serif;
+       }
+       .valueslv{
+           top: 200px;
+       }
+       .valuegld{
+top: 350px;
+       }
+       .gld{
+position: absolute;
+          font-family: 'Commissioner', sans-serif;
+           top: 355px;
+           left: 80px;
+            font-weight: normal;
+       }
+       .slv{
+position: absolute;
+           font-family: 'Commissioner', sans-serif;
+           top: 205px;
+           left: 70px;
+            font-weight: normal;
+       }
+       .std{
+position: absolute;
+         font-family: 'Commissioner', sans-serif;
+           top: 60px;
+           left: 60px;
+           font-weight: normal;
+       }
+       .otchottext{
+            font-weight: bolder;
+             position: absolute;
+           font-family: 'Commissioner', sans-serif;
+              left: 37.3%;
+           top: 1500px;
+       }
+       .otchottext h1{
+           font-weight: bolder;
+           font-family: 'Commissioner', sans-serif;
+       }
+       .ochtotcard{
+                position: absolute;
+           background-color: #E5EAFE;
+height: 470px;
+           width: 95.5vw;
+           border-radius: 17px;
+           left: 2.3%;
+           top: 1600px;
+       }
+       .jointext{
+           position: absolute;
+           font-family: 'Commissioner', sans-serif;
+              left: 41.3%;
+           top: 2150px;
+       }
+       
+          .joincard{
+           position: absolute;
+           background-color: #E5EAFE;
+height: auto;
+            width: 85vw;
+           border-radius: 17px;
+           left: 2.3%;
+           top: 2250px;
+              padding: 55px;
+       }
+       .joinnik{
+               position: relative;
+           height: 80px;
+           width: auto;
+           background-color: #D5E0F4;
+           border-radius: 17px;
+           top: 0px;
+           margin-left:15px;
+           margin-top: 50px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-weight: normal;
+            font-family: 'Commissioner', sans-serif;
+           
+       }
+       .joinnik h2{
+            font-family: 'Commissioner', sans-serif;
+            margin-left:-55px;
+           font-size: 30px;
+           }
+       .joinnik h1{
+           position: relative;
+           margin-left:15px;
+           background-color:#E5EAFE;
+           padding: 15px;
+           border-radius: 17px;
+       }
+       a{
+           text-decoration: none;
+           color: black;
+       }
+       .trname, .join, .money{
+           position: absolute;
+           top: 0px;
+            font-weight: bold;
+            font-family: 'Commissioner', sans-serif;
+       }
+       
+       .trname{
+left: 15px;
+       }
+       .join{
+left: 385px;
+       }
+       .money{
+left: 695px;
+       }
+       .ostd, .oslv, .ogld, .all{
+           position: absolute;
+}
+       .ostd h1, .oslv h1, .ogld h1, .all h1{
+ position: absolute;
+            font-weight: bold;
+            font-family: 'Commissioner', sans-serif;
+           font-size: 35px;
+            font-weight: normal;
+       }
+       .ostd{
+           top: 85px;
+           left: 15px;
+       }
+       .stdvalue, .gldvalue, .slvvalue, .allvalue{
+left: 470px;
+       }
+       .stdmoney, .slvmoney, .gldmoney, .allmoney{
+left: 700px;
+       }
+       .oslv{
+          top: 175px; 
+           left: 15px;
+       }
+       .ogld{
+          top: 270px; 
+             left: 15px;
+       }
+       .all{
+             top: 360px; 
+             left: 15px;
+       }
+       .wrap_money_a{
+position: relative;
+             transform: rotateY(0deg);
+           transition: 0.4s
+       }
+         .wrap_money_d{
+position: relative;
+              transform: rotateY(90deg);
+              transition: 0.4s
+       }
+    </style>
+       <a href="#"><img src="2020-10-13-09-57-12.png"></a>
+       
+       <div class="wrap_money">
+       
+       
+    <div class="wrap_menu">
+    <div class="circle">
+        <h1 class="vi">Вы</h1>
+        <h1 class="prig">пригласили</h1>
+        <h1 class="count"><b>8</b></h1>
+        <h1 class="polz">друзей</h1>
+    </div>
+       
+       
+        <div class="circle2">
+         <h1 class="vash">Ваш</h1>
+        <h1 class="countmoney"><b>185.000</b></h1>
+        <h1 class="polz">Баланс</h1>
+    </div>
+       
+        <div class="gotarif"><h1>перейти на ТАРИФЫ</h1></div>
+        <a href="#"><div class="getmoney"><h1>снять деньги</h1></div></a>
+    </div>
+    <div class="cards">
+       <div class="reftext"><h1>Реферальные ссылки:</h1></div>
+        <div class="refcard">
+            <h1 class="std">Ссылка <b>Standart</b></h1>
+            <h1 class="slv">Ссылка <b>Silver</b></h1>
+            <h1 class="gld">Ссылка <b>Gold</b></h1>
+            <div class="valuestd"><h2>Пусто</h2></div>
+            <div class="valueslv"><h2>Здесь будет длинная реферальная ссылка</h2></div>
+            <div class="valuegld"><h2>Здесь будет длинная реферальная ссылка</h2></div>
+        </div>
+         <div class="otchottext"><h1>Подробный отчёт:</h1></div>
+         <div class="ochtotcard">
+         <div class="trname"><h1>Название тарифа</h1></div>
+         <div class="join"><h1>Подключили</h1></div>
+         <div class="money"><h1>Заработано</h1></div>
+         <div class="ostd"><h1>Standart:</h1><h1 class="stdvalue">1</h1><h1 class="stdmoney">10.000</h1></div>
+          <div class="oslv"><h1>Silver:</h1><h1 class="slvvalue">3</h1><h1 class="slvmoney">75.000</h1></div>
+           <div class="ogld"><h1>Gold:</h1><h1 class="gldvalue">4</h1><h1 class="gldmoney">100.000</h1></div>
+            <div class="all"><h1>Общее:</h1><h1 class="allvalue">8</h1><h1 class="allmoney">185.000</h1></div>
+        </div>
+        
+        
+        <div class="jointext"><h1>Вы пригласили:</h1></div>
+        <div class="joincard">
+            <a href="#"><div class="joinnik"><h2>join nickname</h2><h1><b>Gold</b></h1><h1><b>Silver</b></h1><h1><b>Standart</b></h1></div></a>
+             <a href="#"><div class="joinnik"><h2>join nickname</h2><h1><b>Gold</b></h1><h1><b>Silver</b></h1><h1><b>Standart</b></h1></div></a>
+              <a href="#"><div class="joinnik"><h2>join nickname</h2><h1><b>Gold</b></h1><h1><b>Silver</b></h1><h1><b>Standart</b></h1></div></a>
+               <a href="#"><div class="joinnik"><h2>join nickname</h2><h1><b>Gold</b></h1><h1><b>Silver</b></h1><h1><b>Standart</b></h1></div></a>
+                <a href="#"><div class="joinnik"><h2>join nickname</h2><h1><b>Gold</b></h1><h1><b>Silver</b></h1><h1><b>Standart</b></h1></div></a>
+                 <a href="#"><div class="joinnik"><h2>join nickname</h2><h1><b>Gold</b></h1><h1><b>Silver</b></h1><h1><b>Standart</b></h1></div></a>
+                  <a href="#"><div class="joinnik"><h2>join nickname</h2><h1><b>Gold</b></h1><h1><b>Silver</b></h1><h1><b>Standart</b></h1></div></a>
+                   <a href="#"><div class="joinnik"><h2>join nickname</h2><h1><b>Gold</b></h1><h1><b>Silver</b></h1><h1><b>Standart</b></h1></div></a>
+       
+                   
+                    
+        </div>
+        
+    </div>
+    
+    
+    </div>
+    <style>
+        .wrap{
+display: flex;
+            justify-content: center;
+        }
+        .standart_card, .silver_card, .gold_card{
+            position: absolute;
+            top: 400px;
+            height: 400px;
+            width: 900px;;
+            background-color: #E5EAFE;
+             border-radius:  0px 17px 17px 0px;
+        } 
+        .silver_card{
+  top: 850px;
+        }
+        .gold_card{
+top: 1300px;
+        }
+        .goearning{
+     position: absolute;
+           height: 100px;
+           width: 380px;
+           background-color: #A1E3DF;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 17px;
+            top: 20px;
+           right:  40px;
+          font-family: 'Commissioner', sans-serif;
+              font-weight: normal;
+            cursor: pointer;
+        }
+        .maintext{
+font-family: 'Commissioner', sans-serif;
+              font-weight: bold;
+            position: absolute;
+            top: 250px;
+            font-size: 45px;
+        }
+        .std_name{
+position: absolute;
+             border-radius:  17px 0px 0px 17px;
+            height: 400px;
+            width: 140px;
+            margin-left: -10px;
+           background-color:  #C9F2FA;
+        }
+        .std_name h1{
+            writing-mode: tb-rl;
+transform: rotate(180deg);
+            font-size: 80px;
+            margin-top: 45px;
+            font-family: 'Commissioner', sans-serif;
+              font-weight: bold;
+            margin-left: 10px;
+        }
+        .std_main_text{
+position: absolute;
+            left: 160px;
+           
+        }
+        .std_main_text h1{
+               font-family: 'Commissioner', sans-serif;
+              font-weight: normal; 
+        }
+        .std_price{
+            position: absolute;
+            left: 350px;
+            top: 200px;
+            font-family: 'Commissioner', sans-serif;
+        }
+        .std_activate{
+position: absolute;
+            left: 330px;
+            height: 80px;
+            width: 295px;
+            background-color:#C9F2FA; 
+            top: 310px;
+            border-radius: 17px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .std_activate h1{
+font-size: 40px;   
+             font-family: 'Commissioner', sans-serif;
+        }
+        
+        
+                .slv_name{
+position: absolute;
+             border-radius:  17px 0px 0px 17px;
+            height: 400px;
+            width: 140px;
+            margin-left: -10px;
+           background-color:  #BBC9D6;
+        }
+        .slv_name h1{
+            writing-mode: tb-rl;
+transform: rotate(180deg);
+            font-size: 80px;
+            margin-top: 90px;
+            font-family: 'Commissioner', sans-serif;
+              font-weight: bold;
+            margin-left: 20px;
+        }
+        .slv_main_text{
+position: absolute;
+            left: 160px;
+           
+        }
+        .slv_main_text h1{
+               font-family: 'Commissioner', sans-serif;
+              font-weight: normal; 
+        }
+        .slv_price{
+            position: absolute;
+            left: 350px;
+            top: 200px;
+            font-family: 'Commissioner', sans-serif;
+        }
+        .slv_activate{
+position: absolute;
+            left: 330px;
+            height: 80px;
+            width: 295px;
+             background-color:  #BBC9D6; 
+            top: 310px;
+            border-radius: 17px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .slv_activate h1{
+font-size: 40px;   
+             font-family: 'Commissioner', sans-serif;
+        }
+        
+        
+        
+           .gld_name{
+position: absolute;
+             border-radius:  17px 0px 0px 17px;
+            height: 400px;
+            width: 140px;
+            margin-left: -10px;
+           background-color:  #FFED15;
+        }
+        .gld_name h1{
+            writing-mode: tb-rl;
+transform: rotate(180deg);
+            font-size: 80px;
+            margin-top: 120px;
+            font-family: 'Commissioner', sans-serif;
+              font-weight: bold;
+            margin-left: 20px;
+        }
+        .gld_main_text{
+position: absolute;
+            left: 160px;
+           
+        }
+        .gld_main_text h1{
+               font-family: 'Commissioner', sans-serif;
+              font-weight: normal; 
+        }
+        .gld_price{
+            position: absolute;
+            left: 350px;
+            top: 200px;
+            font-family: 'Commissioner', sans-serif;
+        }
+        .gld_activate{
+position: absolute;
+            left: 330px;
+            height: 80px;
+            width: 295px;
+             background-color: #FFED15;
+            top: 310px;
+            border-radius: 17px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .gld_activate h1{
+font-size: 40px;   
+             font-family: 'Commissioner', sans-serif;
+        }
+        
+        
+        
+            .list{
+position: absolute;
+        top: 1900px;
+                left: 50px;
+    }
+           .wrap_a{
+position: relative;
+             transform: rotateY(0deg);
+           transition: 0.4s
+       }
+         .wrap_d{
+position: relative;
+              transform: rotateY(90deg);
+              transition: 0.4s
+       }
+    </style>
+    
+    <div class="wrap">
+       
+    <div class="goearning"><h1>перейти на Заработок</h1></div>
+        <h1 class="maintext">Тарифы</h1>
+        
+       <div class="standart_card">
+           <div class="std_name"><h1>Standart</h1></div>
+           <div class="std_main_text"><h1>1 месяц премиум доступа.<br><br>50% от цены тарифа за каждого приглашённого пользователя по реферальной ссылке. </h1></div>
+           <div class="std_price"><h1>Цена: 20.000 сум</h1></div>
+           <a href="#"> <div class="std_activate"><h1>Активировать</h1></div></a>
+       </div> 
+       
+        <div class="silver_card">
+           <div class="slv_name"><h1>Silver</h1></div>
+           <div class="slv_main_text"><h1>6 месяц премиум доступа.<br><br>50% от цены тарифа за каждого приглашённого пользователя по реферальной ссылке. </h1></div>
+           <div class="slv_price"><h1>Цена: 50.000 сум</h1></div>
+          <a href="#"> <div class="slv_activate"><h1>Активировать</h1></div></a>
+       </div> 
+       
+        <div class="gold_card">
+           <div class="gld_name"><h1>Gold</h1></div>
+           <div class="gld_main_text"><h1>1 год премиум доступа.<br><br>50% от цены тарифа за каждого приглашённого пользователя по реферальной ссылке. </h1></div>
+           <div class="gld_price"><h1>Цена: 100.000 сум</h1></div>
+            <a href="#"> <div class="gld_activate"><h1>Активировать</h1></div></a>
+            
+            
+            
+       </div> 
+        <h1 class="list">Чтобы получить 50%, приглашённый должен активировать предлагаемый вами тариф.</h1>
+    </div>
+    
+    
+    
+
+</body>
+</html>
